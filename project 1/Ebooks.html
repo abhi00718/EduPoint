@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>E-books</title>
+</head>
+
+<body class="bg-dark">
+    <!-- header section -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light  ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch"
+            viewBox="0 0 16 16">
+            <path
+                d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z" />
+            <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z" />
+        </svg>
+        <a class="navbar-brand font-weight-bold" href="file:///D:/project%201/home.html"><b>EduPoint</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item ml-3 pl- ">
+                    <a class="nav-link" href="file:///D:/project%201/home.html">Home</a>
+                </li>
+                <li class="nav-item  pl-2 ">
+                    <a class="nav-link" href="file:///D:/project%201/CodingExample.html">Coding Examples</a>
+                </li>
+                <li class="nav-item pl-2 ">
+                    <a class="nav-link" href="file:///D:/project%201/courses.html">Courses</a>
+                </li>
+                <li class="nav-item  pl-2">
+                    <a class="nav-link" href="file:///D:/project%201/Ebooks.html">Ebooks</a>
+                </li>
+
+            </ul>
+
+        </div>
+        <div>
+
+            <button type="submit" class="btn btn-danger mb-2 ">Login</button>
+
+        </div>
+
+        </div>
+    </nav>
+
+    <!-- Horizontal form -->
+
+
+    <form class="mx-4 mt-4 bg-dark text-light">
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3">
+            </div>
+        </div>
+        <fieldset class="row mb-3">
+            <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                        checked>
+                    <label class="form-check-label" for="gridRadios1">
+                        Male
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                        Female
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                        Trans
+                    </label>
+                </div>
+
+            </div>
+        </fieldset>
+        <div class="row mb-3">
+            <label for="inputAddress" class="col-sm-2 col-form-label">Address</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputAddress">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="inputCity" class="col-sm-2 col-form-label">City</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="validationtooltip04" class="col-sm-2 col-form-label">State</label>
+            <div class="col-sm-2">
+                <select id="validationtooltip04" class="form-select">
+                    <option selected>choose your State</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="invalid-tooltip">
+                Please select a valid state.
+              </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputZip" class="col-sm-2 col-form-label">Pincode</label>
+            <div class="col-sm-2">
+            <input type="text" class="form-control" id="inputZip">
+        </div></div>
+        <div class="row mb-3">
+            <div class="col-sm-10 offset-sm-2">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                        I agree with your <a href="">Terms & Condition</a>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-danger">Sign Up</button>
+    </form>
+
+
+
+
+    <!-- Footer section -->
+    <footer class="bd-footer py-5 mt-5 bg-light">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 link-light text-decoration-none"
+                        href="file:///D:/project%201/home.html" aria-label="EduPoint">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-twitch text-dark" viewBox="0 0 16 16">
+                            <path
+                                d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z" />
+                            <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z" />
+                        </svg>
+                        <span class="fs-5 text-dark font-weight-bold"><b>EduPoint</b></span>
+                    </a>
+
+                    <ul class="list-unstyled small text-muted">
+                        <li class="mt-4"><a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-google"></a>
+                        </li>
+                        <li>Copyright ©2022 All rights reserved|Made by Abhijeet Kumar <a
+                                href="file:///D:/project%201/home.html">EduPoint</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5>ABOUT US</h5>
+                    <ul>
+                        <li class="mb-2"><a href="/">Company</a></li>
+                        <li class="mb-2"><a href="">Our Team</a></li>
+                        <li class="mb-2"><a href="">Careers</a></li>
+                        <li class="mb-2"><a href="">Privacy Policy</a></li>
+                        <li class="mb-2"><a href="">Cookies Policy</a></li>
+                        <li class="mb-2"><a href="">Terms of use</a></li>
+                        <li class="mb-2"><a href="">Investors</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>EXTRA LINKS</h5>
+                    <ul>
+                        <li class="mb-2"><a href="/">Article</a></li>
+                        <li class="mb-2"><a href="">Dev Tools</a></li>
+                        <li class="mb-2"><a href="">Free Graphics</a></li>
+                        <li class="mb-2"><a href="">File conversion</a></li>
+                        <li class="mb-2"><a href="">Shared Tutorials</a></li>
+                        <li class="mb-2"><a href="">NetMeeting</a></li>
+                        <li class="mb-2"><a href="">Whiteboard</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="col-6 col-lg-2 mb-3">
+              <h5>Projects</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Bootstrap 5</a></li>
+                <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">Bootstrap 4</a></li>
+                <li class="mb-2"><a href="https://github.com/twbs/icons">Icons</a></li>
+                <li class="mb-2"><a href="https://github.com/twbs/rfs">RFS</a></li>
+                <li class="mb-2"><a href="https://github.com/twbs/bootstrap-npm-starter">npm starter</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2 mb-3">
+              <h5>Community</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
+                <li class="mb-2"><a href="https://github.com/twbs/bootstrap/discussions">Discussions</a></li>
+                <li class="mb-2"><a href="https://github.com/sponsors/twbs">Corporate sponsors</a></li>
+                <li class="mb-2"><a href="https://opencollective.com/bootstrap">Open Collective</a></li>
+                <li class="mb-2"><a href="https://bootstrap-slack.herokuapp.com/">Slack</a></li>
+                <li class="mb-2"><a href="https://stackoverflow.com/questions/tagged/bootstrap-5">Stack Overflow</a></li>
+              </ul>
+            </div> -->
+                <div class="col-6 col-lg-2 mb-3 mx-auto ">
+                    <ul class="list-unstyled small text-muted ml-4">
+
+                        <li class=" text-dark "><b>Contact Us</b></li>
+                        <li class="mt-4">Address:2nd floor xyz pG,Landran,mohali-140307 </li>
+                        <li> Email:hackabhi18@gmail.com</li>
+                        <li> <a href="">www.edupoint.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
